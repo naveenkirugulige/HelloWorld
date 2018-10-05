@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import java.*
 
 public class HelloTest {
 
@@ -32,7 +33,7 @@ public class HelloTest {
 
 		text = driver.findElement(By.xpath("html/body/h1"));
 		Assert.assertEquals(text.toString(), "Hello World test2");
-		System.out.println("output",text);
+		//System.out.println("output",text);
 
 	}
 
