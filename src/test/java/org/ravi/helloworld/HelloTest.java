@@ -19,7 +19,7 @@ public class HelloTest {
 	WebElement text;
 	@BeforeTest
 	public void beforeTest() {
-			System.setProperty("webdriver.gecko.driver", "resources\\geckodriver32.exe");
+		//	System.setProperty("webdriver.gecko.driver", "resources\\geckodriver32.exe");
 		driver = new ChromeDriver();
 		System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
 		driver = new ChromeDriver();
